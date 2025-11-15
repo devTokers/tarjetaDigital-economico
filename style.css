@@ -1,0 +1,96 @@
+/* Fondo blanco */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: black;  /* Cambié el texto a negro para que se vea bien sobre el fondo blanco */
+    background-color: white;  /* Fondo blanco */
+    overflow-x: hidden;
+}
+
+.bg {
+    display: none; /* Elimina el fondo con gradiente */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 420px;
+    margin: auto;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+
+    background: rgba(255, 255, 255, 0.95); /* Fondo blanco semitransparente */
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+/* Imagen de perfil */
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid rgba(0,0,0,0.1); /* Sombra sutil alrededor de la imagen */
+    margin-bottom: 15px;
+}
+
+/* Títulos */
+h1 {
+    margin: 10px 0;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Texto descriptivo */
+.descripcion {
+    color: #3ca7ff;  /* Azul */
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Botones */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 12px 0;
+    padding: 14px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+    font-weight: bold;
+    gap: 12px;
+
+    background: rgba(249 249 249);  /* Fondo semi-transparente */
+    border: 1px solid rgba(190 176 176);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* Íconos */
+.btn i {
+    font-size: 22px;
+}
+
+/* Colores de cada red */
+.whatsapp { color: #25D366; }
+.facebook { color: #1877F2; }
+.instagram { color: #E1306C; }
+.telegram { color: #0088cc; }
+.Telefono { color: #0b0a0a; }
+.email { color: #8f4206; }
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #333;  /* Gris oscuro para un buen contraste */
+    font-size: 15px;
+    margin-top: 20px;
+}
